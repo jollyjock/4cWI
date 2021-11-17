@@ -1,0 +1,49 @@
+
+.logo{
+    background-color: lightblue;
+    height: 100px; 
+    width: 100px;
+    position: absolute;
+    right: 0px;
+    top:0px;
+    
+}
+
+.welcome{
+    background-color: thistle;
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    height: 300px; 
+    width: 400px;
+    position: relative;
+
+}
+
+.box{
+    background-color: violet;
+    height: 100px; 
+    width: 100px;
+    position: absolute;
+    right:0px;
+    bottom:0px;
+
+}
+
+.text{
+    background-color: aquamarine;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+}
+
+.lower{
+    background-color: blanchedalmond;
+    margin-top: 50px;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
