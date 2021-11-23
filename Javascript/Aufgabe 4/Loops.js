@@ -1,10 +1,5 @@
 console.log("Loops");
 
-//Schleife, die 10 Mal meinen Namen schreibt
-for (let count = 0; count < 10; count++){
-    console.log( count + " Stephanie")
-}
-
 console.log("Me finished with Life and Loop haha jk");
 
 // Zähle von 7 bis 45
@@ -24,5 +19,23 @@ for (let count = 10; count >= 0 ; count--){
 }
  // Zähle rückwärts von 1234 bis 1207
  for (let count = 1234; count >= 1207 ; count--){
+    console.log(count)
+}
+
+// Gib deinen Namen genau 8 mal aus 
+for (let count = 0; count <=8 ; count++){
+    console.log( count + " Stephanie")
+}
+
+//Zähle von 0 auf 10, dann gib deinen Namen aus, dann zähle von 10 auf 0
+
+for (let count = 0; count <=10; count++){
+    console.log(count)
+}
+
+
+console.log("Stephanie")
+
+for (let count = 10; count >= 0; count--){
     console.log(count)
 }
