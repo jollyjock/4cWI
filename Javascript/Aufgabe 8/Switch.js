@@ -4,7 +4,7 @@
  randomNumber = Math.floor(Math.random(randomNumber) * 6) + 5;
  console.log(randomNumber);
 
- switch (true) {
+ switch (randomNumber) {
      //Wenn der Wert 10 ist, gib "Ten" aus 
      case randomNumber = 10:
           console.log("Ten");
