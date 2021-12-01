@@ -35,7 +35,52 @@ for (i = 1; i < 101; i++){
 }
 console.log(Sumi)
 
+document.write("<br>")
+
 //Aufgabe 3: Versuche mit einer for/while - Schleife den Anfangsbuchstaben deines Namens auszugeben
+
+document.write("Aufgabe 3 : " + "<br>")
+
+for(a = 0; a < 6; a++){
+    switch(a){
+        case 0:
+            for(x = 1; x < 6; x++){
+                document.write("X")
+            }
+            document.write("<br>")
+            break;
+
+        case 1: 
+        for(y = 1; y < 2; y++){
+            document.write("X")
+        }
+        document.write("<br>")
+        break;
+
+        case 2: 
+        for(y = 1; y < 2; y++){
+            document.write("X")
+        }
+        document.write("<br>")
+        break;
+
+        case 3: 
+        for(b = 1; b < 6; b++){
+            document.write("X")
+        }
+        document.write("<br>")
+        break;
+
+        case 4: 
+        for(y = 1; y < 2; y++){
+            document.write("X")
+        }
+        document.write("<br>")
+        break;
+    }
+}
+
+
 
 
 
