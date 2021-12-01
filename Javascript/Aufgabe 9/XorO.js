@@ -35,6 +35,8 @@ for (i = 1; i < 101; i++){
 }
 console.log(Sumi)
 
+//Aufgabe 3: Versuche mit einer for/while - Schleife den Anfangsbuchstaben deines Namens auszugeben
+
 
 
 
