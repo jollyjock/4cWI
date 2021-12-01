@@ -25,10 +25,17 @@ document.write("<br>")
 //Aufgabe 2: Versuche in einer for - Schleife (1-100) alle geraden Zahlen zu addieren 
 //zwei Lösungswege -> Zähler dahingehend verändern, dass er nur gerade Zahlen addiert -> Modulo
 
-document.write("Aufgabe 2 : " + "<br>")
+document.write("Aufgabe 2 : Wird in der Console ausgegeben" + "<br>")
 
+var Sumi = 0
 for (i = 1; i < 101; i++){
-    
+    if(i % 2 == 0){
+        Sumi += i
+    }
 }
+console.log(Sumi)
+
+
+
 
 
