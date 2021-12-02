@@ -36,20 +36,16 @@ for (i = 1; i < 101; i++){
 console.log(Sumi)
 
 document.write("<br>")
+document.write("<br>")
 
 //Aufgabe 3: Versuche mit einer for/while - Schleife den Anfangsbuchstaben deines Namens auszugeben
 
 document.write("Aufgabe 3 : " + "<br>")
 
+document.write("<br>")
+
 for(a = 0; a < 6; a++){
     switch(a){
-        case 0:
-            for(x = 1; x < 6; x++){
-                document.write("X")
-            }
-            document.write("<br>")
-            break;
-
         case 1: 
         for(y = 1; y < 2; y++){
             document.write("X")
@@ -65,7 +61,7 @@ for(a = 0; a < 6; a++){
         break;
 
         case 3: 
-        for(b = 1; b < 6; b++){
+        for(y = 1; y < 2; y++){
             document.write("X")
         }
         document.write("<br>")
@@ -77,12 +73,23 @@ for(a = 0; a < 6; a++){
         }
         document.write("<br>")
         break;
+
+        case 5: 
+        for(y = 1; y < 6; y++){
+            document.write("X")
+        }
+        document.write("<br>")
+        break;
     }
 }
 
+document.write("<br>")
+
+document.write("L für Lohitzer, weil ich keine Ahnung habe, wie ich ein S mache...")
 
 
 
 
+    	
 
 
