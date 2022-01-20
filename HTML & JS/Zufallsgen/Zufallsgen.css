@@ -1,0 +1,17 @@
+html{
+    background-color: red;
+}
+
+input{
+    padding:10px;
+    width:100%;
+
+}
+
+.box{
+    display:flex;
+}
+
+button{
+    
+}
