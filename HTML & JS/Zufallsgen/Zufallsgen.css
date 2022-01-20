@@ -8,10 +8,17 @@ input{
 
 }
 
+button{
+    width: 100px;
+    padding: 10px;
+}
+
 .box{
     display:flex;
 }
 
-button{
-    
+
+
+#output{
+    text-align:center;
 }
