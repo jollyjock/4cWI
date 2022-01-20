@@ -1,5 +1,4 @@
 html{
-    background-color: red;
 }
 
 input{
@@ -9,16 +8,24 @@ input{
 }
 
 button{
-    width: 100px;
+    width: 100%;
     padding: 10px;
 }
 
 .box{
     display:flex;
+    margin-bottom: 20px;
 }
 
 
 
-#output{
-    text-align:center;
+#randomNumber{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin-top: 20px;
+    font-weight:800 ;
+    font-size: 2em;
+    border-style: solid;
 }
