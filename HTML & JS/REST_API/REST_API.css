@@ -1,0 +1,33 @@
+.header{
+    padding:35px;
+    display:flex;
+    justify-content: center;
+}
+
+button{
+    padding: 20px;
+    margin:10px;
+    border-style: none;
+    background-color: aquamarine;
+    color:white;
+}
+
+button:hover{
+    background-color: bisque;
+}
+
+.content{
+    padding:15px;
+}
+
+.content li{
+    background-color: cadetblue;
+    padding:15px;
+    margin-bottom:1px;
+    color:white;  
+}
+
+.content li:hover{
+    cursor:pointer;
+    background-color: beige;
+}
