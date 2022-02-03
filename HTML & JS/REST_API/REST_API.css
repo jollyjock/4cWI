@@ -1,3 +1,4 @@
+
 .header{
     padding:35px;
     display:flex;
@@ -29,5 +30,5 @@ button:hover{
 
 .content li:hover{
     cursor:pointer;
-    background-color: beige;
+    background-color: burlywood;
 }
