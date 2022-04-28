@@ -3,7 +3,8 @@ import './App.css';
 import SuperButoon from './componets/SuperButoon';
 import ButtonRow from './componets/ButtonRow';
 import List from './componets/List';
-import Button2 from './componets/Button2'
+import Button2 from './componets/Button2';
+import Card from './componets/card';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <h2>05 Aufgabe Komponente</h2>
       <List/>
       <Button2/>
+      <Card/>
     </div>
   );
 }

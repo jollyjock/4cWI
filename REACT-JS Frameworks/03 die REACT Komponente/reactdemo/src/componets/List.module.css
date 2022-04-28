@@ -1,12 +1,13 @@
-.ul{
-    background-color: aquamarine;
+li{
     display:flex;
     flex-direction: column;
-    justify-content: left;
-    align-items: left;
-    margin:10px;
-    padding:10px;
-    width: 400px;
-    height:auto;
+    justify-content:space-around;
+    align-items: center;
     cursor: pointer;
+    background-color: crimson;
+    margin: 10px;
+    width: 150px;
+    height:50px;
+    border-width: 5px;
+    border-color:white;
 }
