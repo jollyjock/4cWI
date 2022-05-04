@@ -1,4 +1,15 @@
-.wrapper{
+.card{
+    display: flex;
+    height: 400px;
+    width: 250px;
+    flex-direction: column;
+    background-color: bisque;
+    margin: 10px;
+}
+.content{
     display:flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 10px;
 }
 
