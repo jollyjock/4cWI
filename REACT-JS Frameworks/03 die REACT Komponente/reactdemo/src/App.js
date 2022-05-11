@@ -21,9 +21,11 @@ function App() {
       <Button2/>
       <Card/>
       <h3>06 Aufgabe Properties</h3>
+      <div class="container">
       <Vote candidate="John" address="Dornbirn"/>
       <Vote candidate="Ben" address="your mom"/>
       <Vote candidate="Richie" address="your dad"/>
+      </div>
     </div>
   );
 }
