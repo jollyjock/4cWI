@@ -5,6 +5,8 @@ import ButtonRow from './componets/ButtonRow';
 import List from './componets/List';
 import Button2 from './componets/Button2';
 import Card from './componets/card';
+import Vote from './componets/Vote';
+
 
 
 function App() {
@@ -18,6 +20,10 @@ function App() {
       <List/>
       <Button2/>
       <Card/>
+      <h3>06 Aufgabe Properties</h3>
+      <Vote candidate="John" address="Dornbirn"/>
+      <Vote candidate="Ben" address="your mom"/>
+      <Vote candidate="Richie" address="your dad"/>
     </div>
   );
 }
