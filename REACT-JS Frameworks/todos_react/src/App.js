@@ -24,11 +24,25 @@ class App extends Component{
     }
   }
 
+  addTask =(value) =>{
+    let todo = {
+      id:1,
+      name: value,
+      done: false,
+    }
+    let todos = this.state.todos
+    todos.push(todo);
+
+    this.setState({
+      todos: todos
+    })
+  }
+
   render(){
     return (
       <div className="App">
         <Header/>
-        <TaskAdder/>
+        <TaskAdder onTaskAdded={this.addTask}/>
         <TodoList todos={this.state.todos}/>
       </div>
     );
